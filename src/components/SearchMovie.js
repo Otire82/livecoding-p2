@@ -1,7 +1,4 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
-import key from "../apiKey";
 
 const SearchMovie = ({query, moviesSearched, handleSearch, handleChange, genres}) => {
 

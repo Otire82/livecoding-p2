@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
-import key from "../apiKey";
+
 
 const FilterByGenre = ({genres, setGenreSearched}) => {
 
